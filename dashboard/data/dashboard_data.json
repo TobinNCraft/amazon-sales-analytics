@@ -1,0 +1,1150 @@
+{
+  "generated_at": "2026-01-04T14:35:57.089589",
+  "kpis": {
+    "total_revenue": 8981165.47,
+    "total_profit": 1586664.37,
+    "total_orders": 44630,
+    "total_units_sold": 77479,
+    "avg_order_value": 201.24,
+    "profit_margin": 17.67,
+    "unique_customers": 44630,
+    "prime_member_pct": 39.48,
+    "late_delivery_pct": 0.0,
+    "unique_products": 203,
+    "unique_countries": 14,
+    "avg_discount_rate": 3.5,
+    "data_period": "Jan 2024 - Sep 2025"
+  },
+  "monthly_trends": [
+    {
+      "month": "2024-01",
+      "revenue": 426809.65,
+      "profit": 75613.73,
+      "orders": 2255,
+      "units": 3777.0,
+      "revenue_growth": 0.0,
+      "revenue_ma3": 426809.65
+    },
+    {
+      "month": "2024-02",
+      "revenue": 432222.8,
+      "profit": 77062.03,
+      "orders": 2095,
+      "units": 3632.0,
+      "revenue_growth": 1.27,
+      "revenue_ma3": 432222.8
+    },
+    {
+      "month": "2024-03",
+      "revenue": 501833.77,
+      "profit": 88872.49,
+      "orders": 2348,
+      "units": 3963.0,
+      "revenue_growth": 16.11,
+      "revenue_ma3": 453622.07
+    },
+    {
+      "month": "2024-04",
+      "revenue": 434347.24,
+      "profit": 76784.14,
+      "orders": 2192,
+      "units": 3787.0,
+      "revenue_growth": -13.45,
+      "revenue_ma3": 456134.6
+    },
+    {
+      "month": "2024-05",
+      "revenue": 434448.93,
+      "profit": 75087.05,
+      "orders": 2268,
+      "units": 3804.0,
+      "revenue_growth": 0.02,
+      "revenue_ma3": 456876.65
+    },
+    {
+      "month": "2024-06",
+      "revenue": 417166.85,
+      "profit": 74380.97,
+      "orders": 2252,
+      "units": 3943.0,
+      "revenue_growth": -3.98,
+      "revenue_ma3": 428654.34
+    },
+    {
+      "month": "2024-07",
+      "revenue": 473355.94,
+      "profit": 81982.09,
+      "orders": 2177,
+      "units": 3784.0,
+      "revenue_growth": 13.47,
+      "revenue_ma3": 441657.24
+    },
+    {
+      "month": "2024-08",
+      "revenue": 462308.46,
+      "profit": 82628.65,
+      "orders": 2295,
+      "units": 3971.0,
+      "revenue_growth": -2.33,
+      "revenue_ma3": 450943.75
+    },
+    {
+      "month": "2024-09",
+      "revenue": 468360.51,
+      "profit": 81112.54,
+      "orders": 2262,
+      "units": 3969.0,
+      "revenue_growth": 1.31,
+      "revenue_ma3": 468008.3
+    },
+    {
+      "month": "2024-10",
+      "revenue": 456532.11,
+      "profit": 82667.43,
+      "orders": 2186,
+      "units": 3896.0,
+      "revenue_growth": -2.53,
+      "revenue_ma3": 462400.36
+    },
+    {
+      "month": "2024-11",
+      "revenue": 408871.28,
+      "profit": 72589.2,
+      "orders": 2127,
+      "units": 3703.0,
+      "revenue_growth": -10.44,
+      "revenue_ma3": 444587.97
+    },
+    {
+      "month": "2024-12",
+      "revenue": 475931.32,
+      "profit": 81954.52,
+      "orders": 2319,
+      "units": 4022.0,
+      "revenue_growth": 16.4,
+      "revenue_ma3": 447111.57
+    },
+    {
+      "month": "2025-01",
+      "revenue": 489313.3,
+      "profit": 84668.19,
+      "orders": 2287,
+      "units": 4040.0,
+      "revenue_growth": 2.81,
+      "revenue_ma3": 458038.63
+    },
+    {
+      "month": "2025-02",
+      "revenue": 415313.52,
+      "profit": 74082.31,
+      "orders": 2068,
+      "units": 3609.0,
+      "revenue_growth": -15.12,
+      "revenue_ma3": 460186.05
+    },
+    {
+      "month": "2025-03",
+      "revenue": 449752.57,
+      "profit": 80953.45,
+      "orders": 2293,
+      "units": 3998.0,
+      "revenue_growth": 8.29,
+      "revenue_ma3": 451459.8
+    },
+    {
+      "month": "2025-04",
+      "revenue": 440098.5,
+      "profit": 78913.17,
+      "orders": 2173,
+      "units": 3830.0,
+      "revenue_growth": -2.15,
+      "revenue_ma3": 435054.86
+    },
+    {
+      "month": "2025-05",
+      "revenue": 440094.0,
+      "profit": 78350.94,
+      "orders": 2259,
+      "units": 3933.0,
+      "revenue_growth": -0.0,
+      "revenue_ma3": 443315.02
+    },
+    {
+      "month": "2025-06",
+      "revenue": 420042.05,
+      "profit": 75054.95,
+      "orders": 2083,
+      "units": 3602.0,
+      "revenue_growth": -4.56,
+      "revenue_ma3": 433411.52
+    },
+    {
+      "month": "2025-07",
+      "revenue": 461420.13,
+      "profit": 81389.69,
+      "orders": 2287,
+      "units": 3995.0,
+      "revenue_growth": 9.85,
+      "revenue_ma3": 440518.73
+    },
+    {
+      "month": "2025-08",
+      "revenue": 461824.05,
+      "profit": 80070.84,
+      "orders": 2331,
+      "units": 4108.0,
+      "revenue_growth": 0.09,
+      "revenue_ma3": 447762.08
+    },
+    {
+      "month": "2025-09",
+      "revenue": 11118.49,
+      "profit": 2445.99,
+      "orders": 73,
+      "units": 113.0,
+      "revenue_growth": -97.59,
+      "revenue_ma3": 311454.22
+    }
+  ],
+  "category_performance": [
+    {
+      "category": "Electronics",
+      "revenue": 3670952.15,
+      "profit": 588796.38,
+      "orders": 5433,
+      "units": 9452.0,
+      "profit_margin": 16.04,
+      "revenue_share": 40.87,
+      "cumulative_share": 40.87,
+      "pareto_class": "Top Performer"
+    },
+    {
+      "category": "Gaming",
+      "revenue": 2093958.93,
+      "profit": 349212.35,
+      "orders": 5572,
+      "units": 9554.0,
+      "profit_margin": 16.68,
+      "revenue_share": 23.32,
+      "cumulative_share": 64.19,
+      "pareto_class": "Top Performer"
+    },
+    {
+      "category": "Sports",
+      "revenue": 987269.52,
+      "profit": 178179.41,
+      "orders": 5637,
+      "units": 9808.0,
+      "profit_margin": 18.05,
+      "revenue_share": 10.99,
+      "cumulative_share": 75.17999999999999,
+      "pareto_class": "Top Performer"
+    },
+    {
+      "category": "Home & Kitchen",
+      "revenue": 749750.99,
+      "profit": 140834.14,
+      "orders": 5600,
+      "units": 9757.0,
+      "profit_margin": 18.78,
+      "revenue_share": 8.35,
+      "cumulative_share": 83.52999999999999,
+      "pareto_class": "Supporting"
+    },
+    {
+      "category": "Clothing",
+      "revenue": 493477.31,
+      "profit": 102207.96,
+      "orders": 5675,
+      "units": 9882.0,
+      "profit_margin": 20.71,
+      "revenue_share": 5.49,
+      "cumulative_share": 89.01999999999998,
+      "pareto_class": "Supporting"
+    },
+    {
+      "category": "Beauty",
+      "revenue": 434914.1,
+      "profit": 92258.03,
+      "orders": 5524,
+      "units": 9697.0,
+      "profit_margin": 21.21,
+      "revenue_share": 4.84,
+      "cumulative_share": 93.85999999999999,
+      "pareto_class": "Supporting"
+    },
+    {
+      "category": "Toys",
+      "revenue": 401911.88,
+      "profit": 86881.04,
+      "orders": 5631,
+      "units": 9744.0,
+      "profit_margin": 21.62,
+      "revenue_share": 4.48,
+      "cumulative_share": 98.33999999999999,
+      "pareto_class": "Supporting"
+    },
+    {
+      "category": "Books",
+      "revenue": 148930.59,
+      "profit": 48295.06,
+      "orders": 5558,
+      "units": 9585.0,
+      "profit_margin": 32.43,
+      "revenue_share": 1.66,
+      "cumulative_share": 99.99999999999999,
+      "pareto_class": "Supporting"
+    }
+  ],
+  "regional_performance": [
+    {
+      "region": "Asia",
+      "country": "India",
+      "revenue": 14437.21,
+      "profit": 3197.28,
+      "orders": 4395,
+      "customers": 4395,
+      "avg_order_value": 3.28,
+      "revenue_per_customer": 3.28
+    },
+    {
+      "region": "Asia",
+      "country": "Japan",
+      "revenue": 4350.07,
+      "profit": 615.03,
+      "orders": 2357,
+      "customers": 2357,
+      "avg_order_value": 1.85,
+      "revenue_per_customer": 1.85
+    },
+    {
+      "region": "Asia",
+      "country": "Singapore",
+      "revenue": 294776.57,
+      "profit": 38604.14,
+      "orders": 1444,
+      "customers": 1444,
+      "avg_order_value": 204.14,
+      "revenue_per_customer": 204.14
+    },
+    {
+      "region": "Europe",
+      "country": "France",
+      "revenue": 805336.44,
+      "profit": 179862.83,
+      "orders": 2908,
+      "customers": 2908,
+      "avg_order_value": 276.94,
+      "revenue_per_customer": 276.94
+    },
+    {
+      "region": "Europe",
+      "country": "Germany",
+      "revenue": 1048783.21,
+      "profit": 221217.06,
+      "orders": 3357,
+      "customers": 3357,
+      "avg_order_value": 312.42,
+      "revenue_per_customer": 312.42
+    },
+    {
+      "region": "Europe",
+      "country": "Italy",
+      "revenue": 744951.78,
+      "profit": 179677.74,
+      "orders": 2445,
+      "customers": 2445,
+      "avg_order_value": 304.68,
+      "revenue_per_customer": 304.68
+    },
+    {
+      "region": "Europe",
+      "country": "Netherlands",
+      "revenue": 422280.65,
+      "profit": 97461.92,
+      "orders": 1417,
+      "customers": 1417,
+      "avg_order_value": 298.01,
+      "revenue_per_customer": 298.01
+    },
+    {
+      "region": "Europe",
+      "country": "Spain",
+      "revenue": 740441.77,
+      "profit": 171496.91,
+      "orders": 2445,
+      "customers": 2445,
+      "avg_order_value": 302.84,
+      "revenue_per_customer": 302.84
+    },
+    {
+      "region": "Europe",
+      "country": "United Kingdom",
+      "revenue": 1448148.69,
+      "profit": 320349.73,
+      "orders": 3949,
+      "customers": 3949,
+      "avg_order_value": 366.71,
+      "revenue_per_customer": 366.71
+    },
+    {
+      "region": "North America",
+      "country": "Canada",
+      "revenue": 590858.1,
+      "profit": 89634.52,
+      "orders": 2989,
+      "customers": 2989,
+      "avg_order_value": 197.68,
+      "revenue_per_customer": 197.68
+    },
+    {
+      "region": "North America",
+      "country": "Mexico",
+      "revenue": 38397.6,
+      "profit": 6999.33,
+      "orders": 2401,
+      "customers": 2401,
+      "avg_order_value": 15.99,
+      "revenue_per_customer": 15.99
+    },
+    {
+      "region": "North America",
+      "country": "United States",
+      "revenue": 2666902.32,
+      "profit": 243239.06,
+      "orders": 9709,
+      "customers": 9709,
+      "avg_order_value": 274.68,
+      "revenue_per_customer": 274.68
+    },
+    {
+      "region": "South America",
+      "country": "Brazil",
+      "revenue": 161038.56,
+      "profit": 34201.93,
+      "orders": 3333,
+      "customers": 3333,
+      "avg_order_value": 48.32,
+      "revenue_per_customer": 48.32
+    },
+    {
+      "region": "South America",
+      "country": "Chile",
+      "revenue": 462.5,
+      "profit": 106.89,
+      "orders": 1481,
+      "customers": 1481,
+      "avg_order_value": 0.31,
+      "revenue_per_customer": 0.31
+    }
+  ],
+  "channel_performance": [
+    {
+      "channel": "Amazon.com",
+      "revenue": 2666902.32,
+      "profit": 243239.06,
+      "orders": 9709,
+      "units": 16806.0,
+      "market_share": 29.69
+    },
+    {
+      "channel": "Amazon.co.uk",
+      "revenue": 1448148.69,
+      "profit": 320349.73,
+      "orders": 3949,
+      "units": 6893.0,
+      "market_share": 16.12
+    },
+    {
+      "channel": "Amazon.de",
+      "revenue": 1048783.21,
+      "profit": 221217.06,
+      "orders": 3357,
+      "units": 5823.0,
+      "market_share": 11.68
+    },
+    {
+      "channel": "Amazon.fr",
+      "revenue": 805336.44,
+      "profit": 179862.83,
+      "orders": 2908,
+      "units": 4893.0,
+      "market_share": 8.97
+    },
+    {
+      "channel": "Amazon.it",
+      "revenue": 744951.78,
+      "profit": 179677.74,
+      "orders": 2445,
+      "units": 4235.0,
+      "market_share": 8.29
+    },
+    {
+      "channel": "Amazon.es",
+      "revenue": 740441.77,
+      "profit": 171496.91,
+      "orders": 2445,
+      "units": 4295.0,
+      "market_share": 8.24
+    },
+    {
+      "channel": "Amazon.ca",
+      "revenue": 590858.1,
+      "profit": 89634.52,
+      "orders": 2989,
+      "units": 5282.0,
+      "market_share": 6.58
+    },
+    {
+      "channel": "Amazon.nl",
+      "revenue": 422280.65,
+      "profit": 97461.92,
+      "orders": 1417,
+      "units": 2461.0,
+      "market_share": 4.7
+    },
+    {
+      "channel": "Amazon.sg",
+      "revenue": 294776.57,
+      "profit": 38604.14,
+      "orders": 1444,
+      "units": 2549.0,
+      "market_share": 3.28
+    },
+    {
+      "channel": "Amazon.com.br",
+      "revenue": 161038.56,
+      "profit": 34201.93,
+      "orders": 3333,
+      "units": 5732.0,
+      "market_share": 1.79
+    },
+    {
+      "channel": "Amazon.com.mx",
+      "revenue": 38397.6,
+      "profit": 6999.33,
+      "orders": 2401,
+      "units": 4178.0,
+      "market_share": 0.43
+    },
+    {
+      "channel": "Amazon.in",
+      "revenue": 14437.21,
+      "profit": 3197.28,
+      "orders": 4395,
+      "units": 7658.0,
+      "market_share": 0.16
+    },
+    {
+      "channel": "Amazon.co.jp",
+      "revenue": 4350.07,
+      "profit": 615.03,
+      "orders": 2357,
+      "units": 4109.0,
+      "market_share": 0.05
+    },
+    {
+      "channel": "Amazon.cl",
+      "revenue": 462.5,
+      "profit": 106.89,
+      "orders": 1481,
+      "units": 2565.0,
+      "market_share": 0.01
+    }
+  ],
+  "payment_analysis": [
+    {
+      "payment_method": "Credit Card",
+      "revenue": 6149370.44,
+      "avg_order_value": 220.23,
+      "orders": 27923,
+      "fees": 135356.74,
+      "share": 68.47
+    },
+    {
+      "payment_method": "PayPal",
+      "revenue": 2067188.25,
+      "avg_order_value": 232.48,
+      "orders": 8892,
+      "fees": 58619.27,
+      "share": 23.02
+    },
+    {
+      "payment_method": "Bank Transfer",
+      "revenue": 488274.95,
+      "avg_order_value": 245.24,
+      "orders": 1991,
+      "fees": 10119.63,
+      "share": 5.44
+    },
+    {
+      "payment_method": "Gift Card",
+      "revenue": 153920.92,
+      "avg_order_value": 208.28,
+      "orders": 739,
+      "fees": 3300.16,
+      "share": 1.71
+    },
+    {
+      "payment_method": "Cash on Delivery",
+      "revenue": 44586.68,
+      "avg_order_value": 24.25,
+      "orders": 1839,
+      "fees": 0.0,
+      "share": 0.5
+    },
+    {
+      "payment_method": "Pix",
+      "revenue": 39725.17,
+      "avg_order_value": 48.39,
+      "orders": 821,
+      "fees": 5348.82,
+      "share": 0.44
+    },
+    {
+      "payment_method": "Boleto",
+      "revenue": 32418.79,
+      "avg_order_value": 46.85,
+      "orders": 692,
+      "fees": 3275.98,
+      "share": 0.36
+    },
+    {
+      "payment_method": "UPI",
+      "revenue": 3458.49,
+      "avg_order_value": 3.19,
+      "orders": 1083,
+      "fees": 7046.94,
+      "share": 0.04
+    },
+    {
+      "payment_method": "NetBanking",
+      "revenue": 2221.78,
+      "avg_order_value": 3.42,
+      "orders": 650,
+      "fees": 3385.36,
+      "share": 0.02
+    }
+  ],
+  "day_of_week": [
+    {
+      "day_num": 0.0,
+      "day_name": "Monday",
+      "revenue": 1334351.84,
+      "orders": 6468,
+      "avg_revenue": 206.3,
+      "index": 104.0
+    },
+    {
+      "day_num": 1.0,
+      "day_name": "Tuesday",
+      "revenue": 1316000.92,
+      "orders": 6318,
+      "avg_revenue": 208.29,
+      "index": 102.57
+    },
+    {
+      "day_num": 2.0,
+      "day_name": "Wednesday",
+      "revenue": 1296680.7,
+      "orders": 6394,
+      "avg_revenue": 202.8,
+      "index": 101.06
+    },
+    {
+      "day_num": 3.0,
+      "day_name": "Thursday",
+      "revenue": 1284700.25,
+      "orders": 6424,
+      "avg_revenue": 199.98,
+      "index": 100.13
+    },
+    {
+      "day_num": 4.0,
+      "day_name": "Friday",
+      "revenue": 1221336.55,
+      "orders": 6404,
+      "avg_revenue": 190.71,
+      "index": 95.19
+    },
+    {
+      "day_num": 5.0,
+      "day_name": "Saturday",
+      "revenue": 1263111.58,
+      "orders": 6289,
+      "avg_revenue": 200.84,
+      "index": 98.45
+    },
+    {
+      "day_num": 6.0,
+      "day_name": "Sunday",
+      "revenue": 1264983.63,
+      "orders": 6333,
+      "avg_revenue": 199.74,
+      "index": 98.59
+    }
+  ],
+  "prime_analysis": [
+    {
+      "is_prime": "Non-Prime",
+      "revenue": 5017726.86,
+      "avg_order_value": 185.79,
+      "profit": 937407.98,
+      "orders": 27008,
+      "customers": 27008,
+      "units": 46808.0,
+      "orders_per_customer": 1.0,
+      "revenue_per_customer": 185.79
+    },
+    {
+      "is_prime": "Prime",
+      "revenue": 3963438.61,
+      "avg_order_value": 224.91,
+      "profit": 649256.39,
+      "orders": 17622,
+      "customers": 17622,
+      "units": 30671.0,
+      "orders_per_customer": 1.0,
+      "revenue_per_customer": 224.91
+    }
+  ],
+  "shipping_performance": [
+    {
+      "courier": "Amazon Logistics",
+      "shipments": 11249,
+      "late_count": 0,
+      "late_rate": 0.0,
+      "avg_cost": 7.56,
+      "avg_days": 3.1,
+      "on_time_rate": 100.0
+    },
+    {
+      "courier": "UPS",
+      "shipments": 3216,
+      "late_count": 0,
+      "late_rate": 0.0,
+      "avg_cost": 5.98,
+      "avg_days": 2.1,
+      "on_time_rate": 100.0
+    },
+    {
+      "courier": "FedEx",
+      "shipments": 2979,
+      "late_count": 0,
+      "late_rate": 0.0,
+      "avg_cost": 5.85,
+      "avg_days": 2.2,
+      "on_time_rate": 100.0
+    },
+    {
+      "courier": "DHL",
+      "shipments": 2470,
+      "late_count": 0,
+      "late_rate": 0.0,
+      "avg_cost": 6.13,
+      "avg_days": 2.2,
+      "on_time_rate": 100.0
+    },
+    {
+      "courier": "USPS",
+      "shipments": 2407,
+      "late_count": 0,
+      "late_rate": 0.0,
+      "avg_cost": 5.76,
+      "avg_days": 2.1,
+      "on_time_rate": 100.0
+    },
+    {
+      "courier": "DPD",
+      "shipments": 2184,
+      "late_count": 0,
+      "late_rate": 0.0,
+      "avg_cost": 6.02,
+      "avg_days": 2.2,
+      "on_time_rate": 100.0
+    },
+    {
+      "courier": "Ecom Express",
+      "shipments": 1101,
+      "late_count": 0,
+      "late_rate": 0.0,
+      "avg_cost": 11.24,
+      "avg_days": 5.3,
+      "on_time_rate": 100.0
+    },
+    {
+      "courier": "Blue Dart",
+      "shipments": 1099,
+      "late_count": 0,
+      "late_rate": 0.0,
+      "avg_cost": 11.5,
+      "avg_days": 5.5,
+      "on_time_rate": 100.0
+    },
+    {
+      "courier": "Delhivery",
+      "shipments": 1092,
+      "late_count": 0,
+      "late_rate": 0.0,
+      "avg_cost": 11.32,
+      "avg_days": 5.3,
+      "on_time_rate": 100.0
+    },
+    {
+      "courier": "Royal Mail",
+      "shipments": 1011,
+      "late_count": 0,
+      "late_rate": 0.0,
+      "avg_cost": 5.69,
+      "avg_days": 2.2,
+      "on_time_rate": 100.0
+    }
+  ],
+  "top_products": [
+    {
+      "product": "Keystone Headphones",
+      "category": "Electronics",
+      "brand": "Keystone",
+      "revenue": 127970.05,
+      "profit": 20395.89,
+      "units": 293.0,
+      "orders": 165,
+      "profit_margin": 15.94
+    },
+    {
+      "product": "NovaPulse Headphones",
+      "category": "Electronics",
+      "brand": "NovaPulse",
+      "revenue": 127594.13,
+      "profit": 20811.42,
+      "units": 317.0,
+      "orders": 180,
+      "profit_margin": 16.31
+    },
+    {
+      "product": "NovaPulse Laptop",
+      "category": "Electronics",
+      "brand": "NovaPulse",
+      "revenue": 127562.84,
+      "profit": 20037.66,
+      "units": 330.0,
+      "orders": 173,
+      "profit_margin": 15.71
+    },
+    {
+      "product": "Vistatech Monitor",
+      "category": "Electronics",
+      "brand": "Vistatech",
+      "revenue": 122375.11,
+      "profit": 20406.35,
+      "units": 289.0,
+      "orders": 163,
+      "profit_margin": 16.68
+    },
+    {
+      "product": "IndigoWave Smartphone",
+      "category": "Electronics",
+      "brand": "IndigoWave",
+      "revenue": 117725.43,
+      "profit": 20443.9,
+      "units": 287.0,
+      "orders": 163,
+      "profit_margin": 17.37
+    },
+    {
+      "product": "Vistatech Tablet",
+      "category": "Electronics",
+      "brand": "Vistatech",
+      "revenue": 117612.58,
+      "profit": 19706.46,
+      "units": 266.0,
+      "orders": 164,
+      "profit_margin": 16.76
+    },
+    {
+      "product": "IndigoWave Laptop",
+      "category": "Electronics",
+      "brand": "IndigoWave",
+      "revenue": 116515.7,
+      "profit": 19442.89,
+      "units": 282.0,
+      "orders": 166,
+      "profit_margin": 16.69
+    },
+    {
+      "product": "Vistatech Laptop",
+      "category": "Electronics",
+      "brand": "Vistatech",
+      "revenue": 113552.73,
+      "profit": 18392.39,
+      "units": 285.0,
+      "orders": 155,
+      "profit_margin": 16.2
+    },
+    {
+      "product": "Aurum Smartwatch",
+      "category": "Electronics",
+      "brand": "Aurum",
+      "revenue": 113178.44,
+      "profit": 17377.6,
+      "units": 287.0,
+      "orders": 166,
+      "profit_margin": 15.35
+    },
+    {
+      "product": "Aurum Laptop",
+      "category": "Electronics",
+      "brand": "Aurum",
+      "revenue": 112597.83,
+      "profit": 18944.21,
+      "units": 282.0,
+      "orders": 164,
+      "profit_margin": 16.82
+    },
+    {
+      "product": "Keystone Laptop",
+      "category": "Electronics",
+      "brand": "Keystone",
+      "revenue": 111780.87,
+      "profit": 19120.48,
+      "units": 299.0,
+      "orders": 174,
+      "profit_margin": 17.11
+    },
+    {
+      "product": "Aurum Smartphone",
+      "category": "Electronics",
+      "brand": "Aurum",
+      "revenue": 110986.4,
+      "profit": 18092.28,
+      "units": 250.0,
+      "orders": 144,
+      "profit_margin": 16.3
+    },
+    {
+      "product": "IndigoWave Monitor",
+      "category": "Electronics",
+      "brand": "IndigoWave",
+      "revenue": 110100.32,
+      "profit": 16499.85,
+      "units": 272.0,
+      "orders": 149,
+      "profit_margin": 14.99
+    },
+    {
+      "product": "NovaPulse Tablet",
+      "category": "Electronics",
+      "brand": "NovaPulse",
+      "revenue": 108146.85,
+      "profit": 18392.45,
+      "units": 300.0,
+      "orders": 170,
+      "profit_margin": 17.01
+    },
+    {
+      "product": "IndigoWave Headphones",
+      "category": "Electronics",
+      "brand": "IndigoWave",
+      "revenue": 108023.86,
+      "profit": 16863.8,
+      "units": 253.0,
+      "orders": 158,
+      "profit_margin": 15.61
+    },
+    {
+      "product": "Aurum Headphones",
+      "category": "Electronics",
+      "brand": "Aurum",
+      "revenue": 107293.8,
+      "profit": 16594.24,
+      "units": 268.0,
+      "orders": 151,
+      "profit_margin": 15.47
+    },
+    {
+      "product": "Vistatech Smartphone",
+      "category": "Electronics",
+      "brand": "Vistatech",
+      "revenue": 106469.84,
+      "profit": 16710.53,
+      "units": 262.0,
+      "orders": 149,
+      "profit_margin": 15.7
+    },
+    {
+      "product": "Vistatech Smartwatch",
+      "category": "Electronics",
+      "brand": "Vistatech",
+      "revenue": 103791.48,
+      "profit": 16374.61,
+      "units": 282.0,
+      "orders": 163,
+      "profit_margin": 15.78
+    },
+    {
+      "product": "NovaPulse Smartphone",
+      "category": "Electronics",
+      "brand": "NovaPulse",
+      "revenue": 101791.62,
+      "profit": 16407.06,
+      "units": 269.0,
+      "orders": 152,
+      "profit_margin": 16.12
+    },
+    {
+      "product": "Aurum Monitor",
+      "category": "Electronics",
+      "brand": "Aurum",
+      "revenue": 101667.51,
+      "profit": 17208.28,
+      "units": 270.0,
+      "orders": 157,
+      "profit_margin": 16.93
+    }
+  ],
+  "top_brands": [
+    {
+      "brand": "NovaPulse",
+      "revenue": 749499.76,
+      "profit": 120362.15,
+      "units": 1950.0,
+      "orders": 1109,
+      "market_share": 8.35
+    },
+    {
+      "brand": "Vistatech",
+      "revenue": 747152.12,
+      "profit": 121524.75,
+      "units": 1909.0,
+      "orders": 1092,
+      "market_share": 8.32
+    },
+    {
+      "brand": "Aurum",
+      "revenue": 741013.02,
+      "profit": 118656.07,
+      "units": 1900.0,
+      "orders": 1095,
+      "market_share": 8.25
+    },
+    {
+      "brand": "IndigoWave",
+      "revenue": 730183.18,
+      "profit": 114685.02,
+      "units": 1827.0,
+      "orders": 1074,
+      "market_share": 8.13
+    },
+    {
+      "brand": "Keystone",
+      "revenue": 703104.07,
+      "profit": 113568.39,
+      "units": 1866.0,
+      "orders": 1063,
+      "market_share": 7.83
+    },
+    {
+      "brand": "ThunderPixel",
+      "revenue": 543471.85,
+      "profit": 89797.23,
+      "units": 2444.0,
+      "orders": 1408,
+      "market_share": 6.05
+    },
+    {
+      "brand": "NeonByte",
+      "revenue": 531762.95,
+      "profit": 90506.4,
+      "units": 2408.0,
+      "orders": 1396,
+      "market_share": 5.92
+    },
+    {
+      "brand": "ArcadePro",
+      "revenue": 525437.86,
+      "profit": 88103.24,
+      "units": 2402.0,
+      "orders": 1411,
+      "market_share": 5.85
+    },
+    {
+      "brand": "LyraGear",
+      "revenue": 493286.27,
+      "profit": 80805.48,
+      "units": 2300.0,
+      "orders": 1357,
+      "market_share": 5.49
+    },
+    {
+      "brand": "VectorSport",
+      "revenue": 249235.37,
+      "profit": 44651.41,
+      "units": 2419.0,
+      "orders": 1400,
+      "market_share": 2.78
+    },
+    {
+      "brand": "PeakPath",
+      "revenue": 248102.95,
+      "profit": 45436.69,
+      "units": 2461.0,
+      "orders": 1398,
+      "market_share": 2.76
+    },
+    {
+      "brand": "TempoFit",
+      "revenue": 247982.42,
+      "profit": 45505.19,
+      "units": 2456.0,
+      "orders": 1438,
+      "market_share": 2.76
+    },
+    {
+      "brand": "TrailCore",
+      "revenue": 241948.78,
+      "profit": 42586.12,
+      "units": 2472.0,
+      "orders": 1401,
+      "market_share": 2.69
+    },
+    {
+      "brand": "ZenHaus",
+      "revenue": 189903.09,
+      "profit": 35836.27,
+      "units": 2470.0,
+      "orders": 1394,
+      "market_share": 2.11
+    },
+    {
+      "brand": "CasaBella",
+      "revenue": 189394.34,
+      "profit": 35782.63,
+      "units": 2387.0,
+      "orders": 1402,
+      "market_share": 2.11
+    }
+  ],
+  "order_status": [
+    {
+      "status": "Cancelled",
+      "orders": 453,
+      "revenue": 81617.72,
+      "refunds": 129309.61,
+      "order_share": 0.98
+    },
+    {
+      "status": "Completed",
+      "orders": 44630,
+      "revenue": 8981165.47,
+      "refunds": 0.0,
+      "order_share": 97.0
+    },
+    {
+      "status": "Refunded",
+      "orders": 926,
+      "revenue": 184547.3,
+      "refunds": 269278.14,
+      "order_share": 2.01
+    }
+  ]
+}

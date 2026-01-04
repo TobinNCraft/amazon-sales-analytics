@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amazon Sales Analytics Dashboard - Advanced SQL & Data Analytics Portfolio Project showcasing business intelligence and data visualization skills">
+    <meta name="keywords" content="Data Analytics, SQL, Business Intelligence, Dashboard, Amazon Sales, Portfolio">
+    <meta name="author" content="Data Analyst">
+    <title>Amazon Sales Analytics Dashboard | SQL Portfolio Project</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-4"></div>
+        <div class="floating-shape shape-5"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <div class="nav-brand">
+            <div class="brand-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+            </div>
+            <span class="brand-text">Amazon Sales <span class="gradient-text">Analytics</span></span>
+        </div>
+        <div class="nav-links">
+            <a href="#overview" class="nav-link active">Overview</a>
+            <a href="#performance" class="nav-link">Performance</a>
+            <a href="#insights" class="nav-link">Insights</a>
+            <a href="#sql" class="nav-link">SQL Queries</a>
+        </div>
+        <div class="nav-actions">
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Theme">
+                <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"/>
+                    <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                </svg>
+            </button>
+            <a href="https://github.com" target="_blank" class="github-link">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="overview">
+        <div class="hero-content">
+            <div class="hero-badge animate-slide-up">
+                <span class="badge-dot"></span>
+                SQL & Data Analytics Portfolio Project
+            </div>
+            <h1 class="hero-title animate-slide-up delay-1">
+                Amazon Sales
+                <span class="gradient-text">Intelligence Dashboard</span>
+            </h1>
+            <p class="hero-subtitle animate-slide-up delay-2">
+                A comprehensive analysis of 46,000+ transactions using advanced SQL queries, 
+                showcasing CTEs, Window Functions, and Business Intelligence capabilities
+            </p>
+            <div class="hero-stats animate-slide-up delay-3">
+                <div class="hero-stat">
+                    <span class="stat-number" data-target="46010">0</span>
+                    <span class="stat-label">Orders Analyzed</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="stat-number">$<span data-target="9247330">0</span></span>
+                    <span class="stat-label">Total Revenue</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="stat-number" data-target="14">0</span>
+                    <span class="stat-label">Countries</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </header>
+
+    <!-- Main Dashboard -->
+    <main class="dashboard">
+        <!-- KPI Cards Section -->
+        <section class="section" id="kpis">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-icon">📊</span>
+                    Key Performance Indicators
+                </h2>
+                <p class="section-subtitle">Real-time business metrics powered by SQL analytics</p>
+            </div>
+            
+            <div class="kpi-grid" id="kpi-container">
+                <!-- KPI cards will be dynamically populated -->
+            </div>
+        </section>
+
+        <!-- Revenue Trends -->
+        <section class="section" id="performance">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-icon">📈</span>
+                    Revenue Trends & Analysis
+                </h2>
+                <p class="section-subtitle">Monthly performance with moving averages and growth metrics</p>
+            </div>
+
+            <div class="chart-grid">
+                <div class="chart-card full-width">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Monthly Revenue Trend</h3>
+                        <div class="chart-legend">
+                            <span class="legend-item"><span class="legend-dot revenue"></span>Revenue</span>
+                            <span class="legend-item"><span class="legend-dot ma"></span>3-Month MA</span>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="revenueChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Category & Regional Analysis -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-icon">🏷️</span>
+                    Category & Regional Performance
+                </h2>
+                <p class="section-subtitle">Pareto analysis and geographic distribution insights</p>
+            </div>
+
+            <div class="chart-grid">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Revenue by Category</h3>
+                        <span class="chart-badge">Pareto Analysis</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="categoryChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Revenue by Region</h3>
+                        <span class="chart-badge">Geographic</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="regionChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Channel & Payment Analysis -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-icon">💳</span>
+                    Channel & Payment Insights
+                </h2>
+                <p class="section-subtitle">Multi-channel performance and payment method analysis</p>
+            </div>
+
+            <div class="chart-grid">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Sales by Channel</h3>
+                        <span class="chart-badge">Marketplace</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="channelChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Payment Methods</h3>
+                        <span class="chart-badge">Transaction</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="paymentChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Day of Week & Prime Analysis -->
+        <section class="section" id="insights">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-icon">🔍</span>
+                    Customer Behavior Insights
+                </h2>
+                <p class="section-subtitle">Temporal patterns and customer segmentation analysis</p>
+            </div>
+
+            <div class="chart-grid">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Revenue by Day of Week</h3>
+                        <span class="chart-badge">Temporal</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="dayChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Prime vs Non-Prime</h3>
+                        <span class="chart-badge">Segmentation</span>
+                    </div>
+                    <div class="chart-container prime-container">
+                        <div class="prime-comparison" id="primeComparison">
+                            <!-- Prime comparison will be populated -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Products & Brands -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-icon">🏆</span>
+                    Top Performers
+                </h2>
+                <p class="section-subtitle">Best-selling products and leading brands</p>
+            </div>
+
+            <div class="chart-grid">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Top 10 Brands by Revenue</h3>
+                        <span class="chart-badge">Performance</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="brandsChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Shipping Performance</h3>
+                        <span class="chart-badge">Logistics</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="shippingChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SQL Showcase Section -->
+        <section class="section sql-section" id="sql">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-icon">💾</span>
+                    SQL Skills Showcase
+                </h2>
+                <p class="section-subtitle">Advanced SQL techniques demonstrated in this project</p>
+            </div>
+
+            <div class="sql-showcase">
+                <div class="sql-card">
+                    <div class="sql-card-header">
+                        <div class="sql-icon cte"></div>
+                        <h4>Common Table Expressions (CTEs)</h4>
+                    </div>
+                    <p>Used for complex multi-step analysis including RFM customer segmentation, cohort analysis, and hierarchical revenue calculations.</p>
+                    <div class="sql-code-preview">
+                        <pre><code>WITH monthly_revenue AS (
+    SELECT DATE_TRUNC('month', order_date) AS month,
+           SUM(revenue_usd) AS total_revenue
+    FROM orders
+    GROUP BY 1
+),
+revenue_with_metrics AS (
+    SELECT month, total_revenue,
+           AVG(total_revenue) OVER (
+               ORDER BY month 
+               ROWS BETWEEN 2 PRECEDING AND CURRENT ROW
+           ) AS revenue_3m_avg
+    FROM monthly_revenue
+)</code></pre>
+                    </div>
+                </div>
+
+                <div class="sql-card">
+                    <div class="sql-card-header">
+                        <div class="sql-icon window"></div>
+                        <h4>Window Functions</h4>
+                    </div>
+                    <p>Applied for running totals, moving averages, ranking, percentiles, and growth rate calculations across time series data.</p>
+                    <div class="sql-code-preview">
+                        <pre><code>SELECT category, total_revenue,
+    RANK() OVER (ORDER BY total_revenue DESC) AS rank,
+    ROUND(
+        SUM(total_revenue) OVER (
+            ORDER BY total_revenue DESC
+        ) * 100.0 / SUM(total_revenue) OVER (), 2
+    ) AS cumulative_pct,
+    NTILE(5) OVER (ORDER BY total_revenue) AS quintile
+FROM category_metrics</code></pre>
+                    </div>
+                </div>
+
+                <div class="sql-card">
+                    <div class="sql-card-header">
+                        <div class="sql-icon analytics"></div>
+                        <h4>Advanced Analytics</h4>
+                    </div>
+                    <p>Implemented RFM Analysis, ABC Classification, Pareto (80/20) Analysis, and Cohort Retention tracking for actionable business insights.</p>
+                    <div class="sql-code-preview">
+                        <pre><code>-- RFM Customer Segmentation
+SELECT customer_id,
+    NTILE(5) OVER (ORDER BY recency DESC) AS r_score,
+    NTILE(5) OVER (ORDER BY frequency) AS f_score,
+    NTILE(5) OVER (ORDER BY monetary) AS m_score,
+    CASE 
+        WHEN r >= 4 AND f >= 4 AND m >= 4 THEN 'Champions'
+        WHEN r >= 4 AND f >= 3 THEN 'Loyal Customers'
+        ELSE 'Needs Attention'
+    END AS segment</code></pre>
+                    </div>
+                </div>
+
+                <div class="sql-card">
+                    <div class="sql-card-header">
+                        <div class="sql-icon schema"></div>
+                        <h4>Database Design</h4>
+                    </div>
+                    <p>Designed a normalized star schema with dimension and fact tables, proper indexing strategies, and optimized views for analytics.</p>
+                    <div class="sql-code-preview">
+                        <pre><code>-- Star Schema Design
+CREATE TABLE orders (
+    order_id VARCHAR(20) PRIMARY KEY,
+    customer_id INT REFERENCES customers(id),
+    region_id INT REFERENCES regions(id),
+    order_date DATE NOT NULL,
+    revenue_usd DECIMAL(15, 2)
+);
+
+CREATE INDEX idx_orders_date ON orders(order_date);
+CREATE INDEX idx_orders_revenue ON orders(revenue_usd DESC);</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Technologies -->
+        <section class="section skills-section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-icon">🛠️</span>
+                    Technologies & Skills
+                </h2>
+                <p class="section-subtitle">Full-stack data analytics capabilities demonstrated</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon sql-skill"></div>
+                    <h4>SQL</h4>
+                    <p>PostgreSQL, CTEs, Window Functions, Joins, Subqueries</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon python-skill"></div>
+                    <h4>Python</h4>
+                    <p>Pandas, NumPy, Data Processing, ETL Pipelines</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="90"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon viz-skill"></div>
+                    <h4>Data Visualization</h4>
+                    <p>Chart.js, Interactive Dashboards, Business Reporting</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="88"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon analytics-skill"></div>
+                    <h4>Business Analytics</h4>
+                    <p>KPIs, RFM Analysis, Cohort Analysis, Forecasting</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="92"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="brand-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                </div>
+                <span>Amazon Sales Analytics Dashboard</span>
+            </div>
+            <p class="footer-text">
+                A portfolio project demonstrating SQL and data analytics expertise. 
+                Built with advanced SQL queries, Python data processing, and modern web technologies.
+            </p>
+            <div class="footer-links">
+                <a href="#">View SQL Queries</a>
+                <a href="#">Download Report</a>
+                <a href="https://github.com" target="_blank">GitHub Repository</a>
+            </div>
+            <p class="footer-copyright">
+                © 2024 Data Analyst Portfolio Project. Data analyzed using SQL.
+            </p>
+        </div>
+    </footer>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
